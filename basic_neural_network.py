@@ -1,6 +1,7 @@
-#Basic single layer neural network with ReLU activation 
+#Basic  single layer neural network with ReLU activation 
 import tensorflow as tf
 import sys
+
 
 from tensorflow.python.tools import freeze_graph
 from tensorflow.python.tools import optimize_for_inference_lib
@@ -26,8 +27,6 @@ with tf.Session() as sess:
 
     #save a checkpoint file which will store the above
     saver.save(sess, 'tfdroid.ckpt')
-
-
 
 MODEL_NAME = 'tfdroid'
 
