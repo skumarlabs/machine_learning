@@ -2,8 +2,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Fri Sep 15 03:25:06 2017
-
-@author: suri
 """
 
 from random import shuffle
